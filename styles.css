@@ -1,2 +1,60 @@
-body { background-color: turquoise;
-    color: turquoise};
+/*Declaring variables*
+colour pallette: https://colorswall.com/palette/107/ */
+:root {
+    --main-colour: #886c5f ;
+    --secondary-colour: #242726;
+    --accent-colour: #d4c5aa;
+    --secondary-accent-colour: #d04b18;
+  }
+  
+  /*Reset base template*/
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    color: var(--secondary-colour);
+    font-family: calibri;
+    background-color: var(--main-colour);
+  }
+  
+  #site {
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    top: 0;
+    left: 0;
+    width: 100%;
+    gap: 2rem;
+    padding:0.5rem 10rem 1rem 0; 
+    background-color: var(--main-colour);
+    font-size: 1.5em;
+  
+    
+  }
+  
+  #welcome {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left; /*remove one of justify & align?*/
+    margin-left: 15vw;
+    width: 70vw;
+    font-size: 2em;
+    
+  }
+  
+  #welcome > p { 
+    font-family: "lucida console";
+    font-size: 1em;
+    color: var(--accent-colour);
+    margin-top: 10px;
+  
+    
+  }
+
+
+  /* commented out coloour schemes
+  */
