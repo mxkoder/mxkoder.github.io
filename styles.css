@@ -1,5 +1,6 @@
 /*Declaring variables*
 colour pallette: https://colorswall.com/palette/107/ */
+/* medium feed - https://medium.com/feed/@agnes.beviz */
 :root {
     --main-colour: #886c5f ;
     --secondary-colour: #242726;
@@ -28,7 +29,6 @@ colour pallette: https://colorswall.com/palette/107/ */
     width: 100%;
     gap: 2rem;
     padding:0.5rem 10rem 1rem 0; 
-    background-color: var(--main-colour);
     font-size: 1.5em;
   
     
@@ -43,6 +43,7 @@ colour pallette: https://colorswall.com/palette/107/ */
     margin-left: 15vw;
     width: 70vw;
     font-size: 2em;
+
     
   }
   
@@ -56,5 +57,5 @@ colour pallette: https://colorswall.com/palette/107/ */
   }
 
 
-  /* commented out coloour schemes
+  /* commented out colour schemes
   */
