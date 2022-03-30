@@ -1,0 +1,5 @@
+body {
+    color: var(--secondary-colour);
+    font-family: calibri;
+    background-color: var(--main-colour);
+  }
