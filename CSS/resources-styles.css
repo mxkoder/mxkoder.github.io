@@ -1,3 +1,20 @@
+/*Declaring variables*
+colour pallette: https://colorswall.com/palette/107/ */
+/* medium feed - https://medium.com/feed/@agnes.beviz */
+:root {
+    --main-colour: #886c5f ;
+    --secondary-colour: #242726;
+    --accent-colour: #d4c5aa;
+    --secondary-accent-colour: #d04b18;
+  }
+  
+  /*Reset base template*/
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+
 body {
     color: var(--secondary-colour);
     font-family: calibri;
