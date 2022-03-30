@@ -20,3 +20,5 @@ body {
     font-family: calibri;
     background-color: var(--main-colour);
   }
+
+h1 { color: var(--secondary-accent-colour);}
