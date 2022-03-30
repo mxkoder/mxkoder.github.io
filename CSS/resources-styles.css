@@ -21,4 +21,6 @@ body {
     background-color: var(--main-colour);
   }
 
-h1 { color: var(--secondary-accent-colour);}
+h1 { color: var(--secondary-accent-colour);
+    background-color: var(--main-colour)
+}
