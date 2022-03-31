@@ -16,9 +16,9 @@ colour pallette: https://colorswall.com/palette/107/ */
 
 
 body {
-    color: var(--secondary-colour);
+    color: blue;
     font-family: calibri;
-    background-color: var(--main-colour);
+    background-color: lightblue;
   }
 
 h1 { color: var(--secondary-accent-colour);
