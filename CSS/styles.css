@@ -39,8 +39,9 @@ colour pallette: https://colorswall.com/palette/107/ */
     /*media query --> welcome text for smaller screens*/
     @media only screen and (max-width: 800px) {
       #welcome {
-        width: 100vw;
+        width: 90vw;
         font-size: 1.2em;
+        margin-left: 5vw;
       }
 
       #welcome > p { 
