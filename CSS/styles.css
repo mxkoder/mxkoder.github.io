@@ -4,78 +4,79 @@ colour pallette: https://colorswall.com/palette/107/ */
 
 /* new colour pallette: https://coolors.co/palette/03071e-370617-6a040f-9d0208-d00000-dc2f02-e85d04-f48c06-faa307-ffba08 */
 :root {
-    --main-colour: #f48c06 ;
-    --secondary-colour: #370617;
-    --accent-colour: #03071E;
-    --secondary-accent-colour: #6A040F;
-  }
-  
-  /*Reset base template*/
-  * {
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    color: var(--secondary-colour);
-    font-family: calibri;
-    background-color: var(--main-colour);
-  }
-  
-    /*media query --> welcome text for smaller screens*/
-    @media only screen and (max-width: 800px) {
-      #welcome {
-        width: 90vw;
-        font-size: 1.2em;
-        margin-left: 5vw;
-      }
+  --main-colour: #f48c06 ;
+  --secondary-colour: #370617;
+  --accent-colour: #03071E;
+  --secondary-accent-colour: #6A040F;
+}
 
-      #welcome > p { 
-        font-size: 0.9em;
-      }
+/*Reset base template*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: var(--secondary-colour);
+  font-family: calibri;
+  background-color: var(--main-colour);
+}
+
+  /*media query --> welcome text for smaller screens*/
+  @media only screen and (max-width: 1024px) {
+    #welcome {
+      width: 90vw;
+      font-size: 1.2em;
+      margin-left: 5vw;
     }
 
-
-  #welcome {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: left; /*remove one of justify & align?*/
-    margin-left: 15vw;
-    width: 70vw;
-    font-size: 2em;
-
-    
-  }
-  
-  #welcome > p { 
-    font-family: "lucida console";
-    font-size: 1em;
-    color: var(--accent-colour);
-    margin-top: 10px;
-  
-    
-  }
-
-  /*media query --> full witdh nav bar for smaller screens*/
-  @media only screen and (max-width: 800px) {
-    #site {
-      width: 100vw;
-      gap: 1rem;
-      font-size: 1em;
+    #welcome > p { 
+      font-size: 0.9em;
     }
   }
 
+
+#welcome {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left; /*remove one of justify & align?*/
+  margin-left: 15vw;
+  width: 70vw;
+  font-size: 2em;
+
+  
+}
+
+#welcome > p { 
+  font-family: "lucida console";
+  font-size: 1em;
+  color: var(--accent-colour);
+  margin-top: 10px;
+
+  
+}
+
+/*media query --> full witdh nav bar for smaller screens*/
+@media only screen and (max-width: 1024px) {
   #site {
-    position: fixed;
-    top: 0px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
-    width: 70vw;
-    padding:0.5rem 1rem; 
-    background-color: var(--main-colour);
-    font-size: 1.5em;
+    gap: 0.7rem;
+    font-size: 0.8em;
+    margin-left: 5vw;
+    padding: 0.1rem 0.1rem; 
   }
+}
+
+#site {
+  position: fixed;
+  top: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-left: 15vw;
+  padding: 0.5rem 1rem; 
+  background-color: var(--main-colour);
+  font-size: 1.5em;
+}
