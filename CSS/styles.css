@@ -58,13 +58,13 @@ colour pallette: https://colorswall.com/palette/107/ */
     
   }
 
-  #site {
+  nav {
     position: fixed;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    flex-direction: row; 
+    justify-content: center;
     top: 0;
-    width: 70vw;
     padding:0.5rem 10rem 1rem ; 
     background-color: var(--accent-colour);
 
