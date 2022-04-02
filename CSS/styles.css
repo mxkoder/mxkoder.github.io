@@ -22,20 +22,6 @@ colour pallette: https://colorswall.com/palette/107/ */
     background-color: var(--main-colour);
   }
   
-  #site {
-    position: fixed;
-    display: flex;
-    justify-content: flex-end;
-    top: 0;
-    left: 0;
-    width: 100%;
-    gap: 2rem;
-    padding:0.5rem 10rem 1rem 0; 
-    font-size: 1.5em;
-  
-    
-  }
-
     /*media query --> welcome text for smaller screens*/
     @media only screen and (max-width: 800px) {
       #welcome {
