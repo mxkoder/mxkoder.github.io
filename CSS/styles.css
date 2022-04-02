@@ -22,18 +22,7 @@ body {
   background-color: var(--main-colour);
 }
 
-  /*media query --> welcome text for smaller screens*/
-  @media only screen and (max-width: 1024px) {
-    #welcome {
-      width: 90vw;
-      font-size: 1em;
-      margin-left: 5vw;
-    }
 
-    #welcome > p { 
-      font-size: 0.8em;
-    }
-  }
 
 
 #welcome {
@@ -44,29 +33,30 @@ body {
   align-items: left; /*remove one of justify & align?*/
   margin-left: 15vw;
   width: 70vw;
-  font-size: 2em;
-
-  
+  font-size: 2em;  
 }
 
 #welcome > p { 
   font-family: "lucida console";
   font-size: 1em;
   color: var(--accent-colour);
-  margin-top: 10px;
-
-  
+  margin-top: 10px;  
 }
 
-/*media query --> full witdh nav bar for smaller screens*/
-@media only screen and (max-width: 1024px) {
-  #site {
-    gap: 0.7rem;
-    font-size: 0.7em;
-    margin-left: 5vw;
-    padding: 0.1rem 0.1rem; 
+
+  /*media query --> welcome text for smaller screens*/
+  @media only screen and (max-width: 1024px) {
+    #welcome {
+      width: 90vw;
+      font-size: 1.5em;
+      margin-left: 5vw;
+    }
+
+    #welcome > p { 
+      font-size: 1em;
+    }
   }
-}
+
 
 #site {
   position: fixed;
@@ -79,4 +69,14 @@ body {
   padding: 0.5rem 1rem; 
   background-color: var(--main-colour);
   font-size: 1.5em;
+}
+
+/*media query --> full witdh nav bar for smaller screens*/
+@media only screen and (max-width: 1024px) {
+  #site {
+    gap: 1rem;
+    font-size: 1em;
+    margin-left: 5vw;
+    padding: 0.5rem 0.5rem; 
+  }
 }
