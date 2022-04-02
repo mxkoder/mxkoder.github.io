@@ -1,11 +1,13 @@
 /*Declaring variables*
 colour pallette: https://colorswall.com/palette/107/ */
 /* medium feed - https://medium.com/feed/@agnes.beviz */
+
+/* new colour pallette: https://coolors.co/palette/03071e-370617-6a040f-9d0208-d00000-dc2f02-e85d04-f48c06-faa307-ffba08 */
 :root {
-    --main-colour: #886c5f ;
-    --secondary-colour: #242726;
-    --accent-colour: #d4c5aa;
-    --secondary-accent-colour: #d04b18;
+    --main-colour: #f48c06 ;
+    --secondary-colour: #370617;
+    --accent-colour: #03071E;
+    --secondary-accent-colour: #6A040F;
   }
   
   /*Reset base template*/
