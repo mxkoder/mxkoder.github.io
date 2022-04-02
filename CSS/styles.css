@@ -35,7 +35,20 @@ colour pallette: https://colorswall.com/palette/107/ */
   
     
   }
-  
+
+    /*media query --> welcome text for smaller screens*/
+    @media only screen and (max-width: 800px) {
+      #welcome {
+        width: 100vw;
+        font-size: 1.2em;
+      }
+
+      #welcome > p { 
+        font-size: 0.9em;
+      }
+    }
+
+
   #welcome {
     height: 100vh;
     display: flex;
@@ -58,6 +71,12 @@ colour pallette: https://colorswall.com/palette/107/ */
     
   }
 
+  /*media query --> full witdh nav bar for smaller screens*/
+  @media only screen and (max-width: 800px) {
+    #site {
+      width: 100vw;
+    }
+
   #site {
     position: fixed;
     top: 0px;
@@ -66,6 +85,6 @@ colour pallette: https://colorswall.com/palette/107/ */
     flex-direction: row; 
     justify-content: center;
     width: 70vw;
-    padding:0.5rem 10rem 1rem ; 
+    padding:0.5rem 1rem; 
     background-color: var(--main-colour);
   }
