@@ -36,6 +36,10 @@ body {
   font-size: 2em;  
 }
 
+#portrait {
+  height: 20vh;
+}
+
 #welcome > p { 
   font-family: "lucida console";
   font-size: 1em;
@@ -54,6 +58,11 @@ body {
 
     #welcome > p { 
       font-size: 1em;
+    }
+
+    #portrait {
+      align-self: center;
+      height: 15vh;
     }
   }
 
