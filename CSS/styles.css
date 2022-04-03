@@ -121,6 +121,10 @@ main {
   font-family: calibri;
 }
 
+#about {
+  justify-content: center;
+}
+
 section > p {
   font-size: 1.5em;
 }
