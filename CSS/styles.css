@@ -18,7 +18,6 @@ colour pallette: https://colorswall.com/palette/107/ */
 
 body {
   color: var(--accent-colour);
-  font-family: calibri;
   background-color: var(--main-colour);
 }
 
@@ -115,6 +114,7 @@ a:hover {
   width: 60vw;
   font-size: 2em;
   line-height: 1.5;
+  font-family: calibri;
 }
 
 /*media query --> about me section for smaller screens*/
