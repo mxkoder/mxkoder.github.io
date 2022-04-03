@@ -123,6 +123,17 @@ main {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 section > p {
   font-size: 1.5em;
 }
@@ -142,3 +153,17 @@ section > p {
     }
 }
 
+/* social media connect icons*/
+.fa {
+  padding: 1vh;
+  font-size: 1em;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: var(--accent-colour);
+}
+
+/* hover effect for social media connect icons */
+.fa:hover {
+  opacity: 0.5;
+}
