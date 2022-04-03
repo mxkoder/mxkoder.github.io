@@ -112,7 +112,7 @@ a:hover {
 main {
   display: flex;
   flex-direction: column;
-  align-items: left; 
+  align-items: center; 
   justify-content: center;
   padding-top: 15vh;
   margin-left: 20vw;
@@ -121,9 +121,7 @@ main {
   font-family: calibri;
 }
 
-#about {
-  justify-content: center;
-}
+
 
 section > p {
   font-size: 1.5em;
