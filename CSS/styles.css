@@ -114,3 +114,10 @@ a:hover {
   font-size: 1em;  
 }
 
+/*media query --> about me section for smaller screens*/
+@media only screen and (max-width: 1024px) {
+  #about {
+    width: 90vw;
+    margin-left: 5vw;
+  }
+}
