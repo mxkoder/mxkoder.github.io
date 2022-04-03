@@ -29,16 +29,16 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: left; 
+  padding-top: 15vh;
   margin-left: 15vw;
   width: 70vw;
   font-size: 2em;  
 }
 
 #portrait {
-  height: 20vh;
-  width: auto;
+  height: 25vh;
+  width: 25vh;
   align-self: left;
 }
 
@@ -64,6 +64,8 @@ body {
 
     #portrait {
       align-self: center;
+      height: 20vh;
+      width: 20vh;
     }
   }
 
@@ -85,7 +87,7 @@ body {
 @media only screen and (max-width: 1024px) {
   #site {
     gap: 1rem 1rem;
-    font-size: 1em;
+    font-size: 1.2em;
     margin-left: 5vw;
     padding: 0.5rem 0.5rem; 
     line-height: 0.8;
