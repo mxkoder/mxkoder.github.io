@@ -29,16 +29,15 @@
     display: flex;
     flex-direction: column;
     align-items: left; 
-    padding-top: 15vh;
+    padding-top: 10vh;
     margin-left: 20vw;
     width: 60vw;
   }
   
   
   #header > p { 
-    font-family: "lucida console";
-    margin-top: 10px;  
-    font-size: 2em;
+    font-family: "lucida console";  
+    font-size: 1em;
   }
   
   
