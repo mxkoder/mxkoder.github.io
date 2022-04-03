@@ -19,6 +19,7 @@ colour pallette: https://colorswall.com/palette/107/ */
 body {
   color: var(--accent-colour);
   background-color: var(--main-colour);
+  font-family: calibri;
 }
 
 h1, h2 {
@@ -47,7 +48,7 @@ h1, h2 {
 #welcome > p { 
   font-family: "lucida console";
   margin-top: 10px;  
-  font-size: 2rem;
+  font-size: 2em;
 }
 
 
@@ -55,11 +56,14 @@ h1, h2 {
   @media only screen and (max-width: 1024px) {
     #welcome {
       width: 90vw;
-      font-size: 1.5em;
       align-items: center; 
       margin-left: 5vw;
     }
 
+    #welcome > p { 
+      font-size: 1em;
+    }
+    
     #portrait {
       height: 20vh;
       width: 20vh;
@@ -81,12 +85,12 @@ h1, h2 {
 }
 
 a:link {
-  color: var(--secondary-colour);
+  color: var(--accent-colour);
   text-decoration: none;
 }
 
 a:visited {
-  color: var(--secondary-colour);
+  color: var(--accent-colour);
 }
 
 a:hover {
@@ -105,21 +109,24 @@ a:hover {
   }
 }
 
-#about {
+main {
   display: flex;
   flex-direction: column;
   align-items: left; 
   padding-top: 15vh;
   margin-left: 20vw;
   width: 60vw;
-  font-size: 2em;
   line-height: 1.5;
   font-family: calibri;
 }
 
+section > p {
+  font-size: 1.5em;
+}
+
 /*media query --> about me section for smaller screens*/
 @media only screen and (max-width: 1024px) {
-  #about {
+  main {
     width: 90vw;
     margin-left: 5vw;
     font-size: 1.2em;
@@ -128,7 +135,7 @@ a:hover {
 
   @media only screen and (max-width: 1024px) {
     h1, h2 {
-    font-size: 1.5em;
+    font-size: 2em;
     }
 }
 
