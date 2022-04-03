@@ -1,11 +1,16 @@
 
 /*colour pallette: https://coolors.co/palette/03071e-370617-6a040f-9d0208-d00000-dc2f02-e85d04-f48c06-faa307-ffba08 */
-
 :root {
   --main-colour: #f48c06 ;
   --secondary-colour: #370617;
   --accent-colour: #03071E;
   --secondary-accent-colour: #6A040F;
+}
+
+/*Reset base template*/
+* {
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -151,6 +156,7 @@ footer {
 footer > p {
   display: flex;
   justify-content: center;
+  text-align: center;
   margin-top: 0.5rem;
 }
 
