@@ -75,7 +75,7 @@ body {
 @media only screen and (max-width: 1024px) {
   #site {
     gap: 1rem 1rem;
-    font-size: 2em;
+    font-size: 1em;
     margin-left: 5vw;
     padding: 0.5rem 0.5rem; 
     line-height: 0.8;
