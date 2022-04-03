@@ -2,6 +2,7 @@
 /* new colour pallette: https://coolors.co/palette/03071e-370617-6a040f-9d0208-d00000-dc2f02-e85d04-f48c06-faa307-ffba08 */
 :root {
   --main-colour: #f48c06 ;
+  --lighter-than-main: #FAA307;
   --secondary-colour: #370617;
   --accent-colour: #03071E;
   --secondary-accent-colour: #6A040F;
@@ -120,18 +121,6 @@ main {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 section > p {
   font-size: 1.5em;
 }
@@ -151,6 +140,9 @@ section > p {
     }
 }
 
+#blog {
+  background-color: var(--lighter-than-main);
+}
 
 footer {
   background-color: var(--main-colour);
