@@ -82,12 +82,12 @@ body {
 }
 
 a:link {
-  color: var(--secondary-colour);
+  color: #370617;
   text-decoration: none;
 }
 
 a:visited {
-  color: var(--secondary-colour);
+  color: #370617;
 }
 
 a:hover {
