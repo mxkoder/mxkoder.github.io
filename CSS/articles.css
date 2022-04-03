@@ -144,6 +144,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   gap: 0.8rem;
 }
 
@@ -155,9 +156,8 @@ footer > p {
 
 /* social media connect icons*/
 .fa {
-  padding: 1vh;
   font-size: 1em;
-  width: 60px;
+  width: 40px;
   text-align: center;
   text-decoration: none;
   color: var(--accent-colour);
