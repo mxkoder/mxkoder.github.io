@@ -74,9 +74,10 @@ body {
 /*media query --> full witdh nav bar for smaller screens*/
 @media only screen and (max-width: 1024px) {
   #site {
-    gap: 1rem;
-    font-size: 1em;
+    gap: 1rem 1rem;
+    font-size: 2em;
     margin-left: 5vw;
     padding: 0.5rem 0.5rem; 
+    line-height: 0.8;
   }
 }
