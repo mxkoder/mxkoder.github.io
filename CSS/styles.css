@@ -114,6 +114,7 @@ main {
   flex-direction: column;
   align-items: center; 
   justify-content: center;
+  text-align: left;
   padding-top: 15vh;
   margin-left: 20vw;
   width: 60vw;
@@ -153,11 +154,34 @@ section > p {
     }
 }
 
+
+footer {
+  background-color: var(--main-colour);
+  margin-top: -0.5em;
+  padding: 1em;
+  position: fixed; 
+  bottom: 0;
+  width: 100vw;
+}
+
+#social-media-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+footer > p {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+
 /* social media connect icons*/
 .fa {
   padding: 1vh;
   font-size: 1em;
-  width: 50px;
+  width: 60px;
   text-align: center;
   text-decoration: none;
   color: var(--accent-colour);
@@ -165,5 +189,5 @@ section > p {
 
 /* hover effect for social media connect icons */
 .fa:hover {
-  opacity: 0.5;
+  opacity: 0.6;
 }
