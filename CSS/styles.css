@@ -38,6 +38,7 @@ body {
 
 #portrait {
   height: 20vh;
+  width: auto;
 }
 
 #welcome > p { 
@@ -62,7 +63,6 @@ body {
 
     #portrait {
       align-self: center;
-      height: 15vh;
     }
   }
 
