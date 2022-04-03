@@ -125,7 +125,6 @@ section > p {
 }
 
 #blog {
-  background-color: var(--lighter-than-main);
   padding-top: 10vh;
 }
 
