@@ -30,7 +30,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: left; /*remove one of justify & align?*/
+  align-items: left; 
   margin-left: 15vw;
   width: 70vw;
   font-size: 2em;  
