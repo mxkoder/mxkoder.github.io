@@ -1,0 +1,161 @@
+
+/*colour pallette: https://coolors.co/palette/03071e-370617-6a040f-9d0208-d00000-dc2f02-e85d04-f48c06-faa307-ffba08 */
+  
+  body {
+    color: var(--accent-colour);
+    background-color: var(--main-colour);
+    font-family: calibri;
+  }
+  
+  h1, h2 {
+    color: var(--secondary-colour);
+    font-size: 3em;
+  }
+  
+  
+  
+  #header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: left; 
+    padding-top: 15vh;
+    margin-left: 20vw;
+    width: 60vw;
+  }
+  
+  
+  #header > p { 
+    font-family: "lucida console";
+    margin-top: 10px;  
+    font-size: 2em;
+  }
+  
+  
+    /*media query --> welcome section for smaller screens*/
+    @media only screen and (max-width: 1024px) {
+      #header {
+        width: 90vw;
+        align-items: center; 
+        margin-left: 5vw;
+      }
+  
+      #header > p { 
+        font-size: 1.2em;
+      }
+    }
+  
+  
+  #site {
+    position: fixed;
+    top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-left: 20vw;
+    padding: 0.5rem 1rem; 
+    background-color: var(--main-colour);
+    font-size: 1.5em;
+  }
+  
+  a:link {
+    color: var(--accent-colour);
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: var(--accent-colour);
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  /*media query --> full witdh nav bar for smaller screens*/
+  @media only screen and (max-width: 1024px) {
+    #site {
+      gap: 1rem 1rem;
+      font-size: 1.2em;
+      margin-left: 5vw;
+      padding: 0.5rem 0.5rem; 
+      line-height: 0.8;
+    }
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    text-align: left;
+    padding-top: 15vh;
+    margin-left: 20vw;
+    margin-bottom: 20vh;
+    width: 60vw;
+    line-height: 1.5;
+  }
+  
+  
+  
+  article > p {
+    font-size: 1.5em;
+  }
+  
+  /*media query --> about me section for smaller screens*/
+  @media only screen and (max-width: 1024px) {
+    main {
+      width: 90vw;
+      margin-left: 5vw;
+      font-size: 1.0em;
+    }
+  }
+  
+    @media only screen and (max-width: 1024px) {
+      h1, h2 {
+      font-size: 2em;
+      }
+  }
+  
+  
+  footer {
+    background-color: var(--main-colour);
+    margin-top: -0.5em;
+    padding: 1em;
+    position: fixed; 
+    bottom: 0;
+    width: 100vw;
+  }
+  
+  #social-media-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  footer > p {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+  }
+  
+  /* social media connect icons*/
+  .fa {
+    padding: 1vh;
+    font-size: 1em;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--accent-colour);
+  }
+  
+  /* hover effect for social media connect icons */
+  .fa:hover {
+    opacity: 0.6;
+  }
+  
+
+
+
