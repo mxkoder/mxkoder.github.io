@@ -125,11 +125,15 @@ section > p {
 }
 
 #blog {
+  display: flex;
+  flex-direction: column;
   padding-top: 10vh;
 }
 
-#article-link {
-  font-size: 1.2em;
+#article-link a:link,
+#article-link a:visited,
+#article-link a:hover {
+   font-size: 1.2em;
 }
 
 /*media query --> about me section for smaller screens*/
