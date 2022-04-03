@@ -124,6 +124,15 @@ section > p {
   font-size: 1.5em;
 }
 
+#blog {
+  background-color: var(--lighter-than-main);
+  padding-top: 10vh;
+}
+
+#article-link {
+  font-size: 1.2em;
+}
+
 /*media query --> about me section for smaller screens*/
 @media only screen and (max-width: 1024px) {
   main {
@@ -139,9 +148,7 @@ section > p {
     }
 }
 
-#blog {
-  background-color: var(--lighter-than-main);
-}
+
 
 footer {
   background-color: var(--main-colour);
