@@ -124,6 +124,9 @@ main {
 #blog {
   display: flex;
   flex-direction: column;
+}
+
+section {
   padding-top: 10vh;
 }
 
