@@ -155,7 +155,7 @@ footer {
   gap: 0.8rem;
 }
 
-footer > p {
+#copyright {
   display: flex;
   justify-content: center;
   text-align: center;
