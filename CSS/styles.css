@@ -130,9 +130,9 @@ section > p {
   padding-top: 10vh;
 }
 
-#article-link a:link,
-#article-link a:visited,
-#article-link a:hover {
+a.article-link a:link,
+a.article-link a:visited,
+a.article-link a:hover {
    font-size: 1.2em;
 }
 
