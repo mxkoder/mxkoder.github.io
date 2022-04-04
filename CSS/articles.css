@@ -118,7 +118,64 @@ article > p {
   font-size: 1.5em;
 }
 
-/*media query --> about me section for smaller screens*/
+/*Styling for projects section*/
+
+/*Container grid for project tiles */
+#project-tiles {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  margin: auto;
+  margin-top: 30px;
+  width: 70vw;
+  
+}
+
+/* Media query to change grid to 1 columns for smaller screens */
+@media only screen and (max-width: 1024px) {
+  #project-tiles {
+  display: grid;
+  overflow: hidden;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1.5rem;
+  margin: auto;
+  margin-top: 15px;
+  width: 80vw;
+  }
+  
+}
+
+/* Project tile elements */
+.project-tile {
+  background-color: white;
+  display: flex;
+  aspect-ratio: 1 / 1;
+	align-items: center;
+	justify-content: center;
+  border-radius: 7%;
+  box-shadow: 2px 2px 2px 0px var(--secondary-accent-colour);
+  width: 100%;
+  height: auto;
+
+}
+
+.project-image {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+/*Project captions*/
+#project-caption {
+  text-align: center;
+  font-size: 1.5em;
+  margin: auto;
+  margin-top: 1rem;
+  background-color: var(--main-colour);
+}
+
+
+/*media query --> sections in main for smaller screens*/
 @media only screen and (max-width: 1024px) {
   main {
     width: 90vw;
