@@ -130,13 +130,6 @@ section {
   padding-top: 10vh;
 }
 
-a.article-link a:link,
-a.article-link a:visited,
-a.article-link a:hover {
-   font-size: 1.2em;
-}
-
-
 /*Styling for projects section*/
 
 /*Container grid for project tiles */
