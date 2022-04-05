@@ -138,6 +138,9 @@ article > p {
       }
   }
 
+  ul {
+    list-style-position:inside;
+  }
 
 footer {
   background-color: var(--main-colour);
