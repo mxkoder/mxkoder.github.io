@@ -169,6 +169,7 @@ section {
   box-shadow: 2px 2px 2px 0px var(--secondary-accent-colour);
   width: 100%;
   height: auto;
+  margin: 2vh;
 
 }
 
