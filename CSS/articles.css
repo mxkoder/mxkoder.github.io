@@ -57,7 +57,7 @@ h2 {
     }
 
     #header > p { 
-      font-size: 1.2em;
+      font-size: 1.1em;
     }
   }
 
@@ -96,6 +96,7 @@ a:hover {
     font-size: 1.2em;
     padding: 0.5rem 0.5rem; 
     line-height: 0.8;
+    margin-left: 0;
   }
 }
 
@@ -109,12 +110,12 @@ main {
   margin-bottom: 20vh;
   width: 60vw;
   line-height: 1.5;
-  font-size: 1.7em;
+  font-size: 1.6em;
 }
 
 ul {
   list-style-position:inside;
-  font-size: 1.7em;
+  font-size: 1.6em;
 }
 
 /*media query --> article for smaller screens*/
@@ -143,7 +144,7 @@ ul {
 footer {
   background-color: var(--main-colour);
   margin-top: -0.5em;
-  padding: 1em;
+  padding: 0.3em;
   position: fixed; 
   bottom: 0;
   width: 100vw;

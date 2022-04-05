@@ -103,6 +103,7 @@ a:hover {
     font-size: 1.2em;
     padding: 0.5rem 0.5rem; 
     line-height: 0.8;
+    margin-left: 0;
   }
 }
 
@@ -116,7 +117,7 @@ main {
   margin-bottom: 20vh;
   width: 60vw;
   line-height: 1.2;
-  font-size: 1.7em;
+  font-size: 1.6em;
 }
 
 ul {
@@ -150,7 +151,7 @@ section {
   overflow: hidden;
   grid-template-columns: repeat(1, 1fr);
   gap: 1rem;
-  margin: 0 2vh 3vh;
+  margin: 0 2vh 2vh;
   }
   
 }
@@ -211,7 +212,7 @@ section {
 footer {
   background-color: var(--main-colour);
   margin-top: -0.5em;
-  padding: 1em;
+  padding: 0.3em;
   position: fixed; 
   bottom: 0;
   width: 100vw;
