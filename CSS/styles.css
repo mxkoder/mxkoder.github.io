@@ -223,7 +223,6 @@ footer {
   flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
-  padding-top: 2vh;
 }
 
 footer > p {
