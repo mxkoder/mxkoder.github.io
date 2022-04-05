@@ -94,7 +94,6 @@ a:hover {
   #site {
     gap: 1rem 1rem;
     font-size: 1.2em;
-    margin-left: 5vw;
     padding: 0.5rem 0.5rem; 
     line-height: 0.8;
   }
@@ -110,37 +109,36 @@ main {
   margin-bottom: 20vh;
   width: 60vw;
   line-height: 1.5;
+  font-size: 1.7em;
 }
 
-
-
-article > p {
-  font-size: 1.5em;
+ul {
+  list-style-position:inside;
+  font-size: 1.7em;
 }
 
-
-/*media query --> sections in main for smaller screens*/
+/*media query --> article for smaller screens*/
 @media only screen and (max-width: 1024px) {
   main {
     width: 90vw;
     margin-left: 5vw;
-    font-size: 1.0em;
+    font-size: 1.2em;
   }
-}
 
-  @media only screen and (max-width: 1024px) {
-    h1 {
+  h1 {
     font-size: 2em;
     }
 
-    h2 {
+  h2 {
       font-size: 1.5em;
-      }
-  }
+    }
 
   ul {
-    list-style-position:inside;
+      font-size: 1.2em;
   }
+
+}
+
 
 footer {
   background-color: var(--main-colour);
