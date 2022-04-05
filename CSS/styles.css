@@ -151,7 +151,7 @@ section {
   overflow: hidden;
   grid-template-columns: repeat(1, 1fr);
   gap: 1rem;
-  margin-top: 3vh;
+  margin: 0 2vh 3vh;
   }
   
 }
@@ -165,11 +165,9 @@ section {
 	justify-content: center;
   border-radius: 5%;
   box-shadow: 2px 2px 2px 0px var(--secondary-accent-colour);
-  width: 90vw;
+  width: 95%;
   height: auto;
   padding: 1vw;
-  margin: 2vw;
-
 }
 
 .project-image {
