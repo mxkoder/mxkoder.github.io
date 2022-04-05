@@ -135,7 +135,7 @@ section {
 
 /*Styling for projects section*/
 
-/*Container grid for project tiles */
+/*Container grid for project tile grid */
 #project-tiles {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
