@@ -44,7 +44,7 @@ h1, h2 {
 }
 
 #welcome > p { 
-  font-family: "lucida console";
+  font-family: "Lucida Console", "Courier New", monospace;
   margin-top: 10px;  
   font-size: 2em;
 }
