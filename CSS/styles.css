@@ -195,7 +195,7 @@ section {
 /*media query --> about me section for smaller screens*/
 @media only screen and (max-width: 1024px) {
   main {
-    width: 94vw;
+    width: 90vw;
     margin-left: 5vw;
     margin-top: 15vh;
     font-size: 1.2em;
