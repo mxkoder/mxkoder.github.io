@@ -196,7 +196,7 @@ section {
 @media only screen and (max-width: 1024px) {
   main {
     width: 94vw;
-    margin-left: 3vw;
+    margin-left: 5vw;
     margin-top: 15vh;
     font-size: 1.2em;
   }
