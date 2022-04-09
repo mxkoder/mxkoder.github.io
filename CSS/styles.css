@@ -183,7 +183,7 @@ section {
 }
 
 /*Project captions*/
-#project-caption {
+.project-caption {
   text-align: center;
   font-size: 1em;
   margin: auto 1rem;
