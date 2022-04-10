@@ -42,6 +42,44 @@ class Nav extends HTMLElement {
           height: 100%;
           position: relative;
         }
+
+        /* Link styling */
+        a:link {
+          color: var(--accent-colour);
+           text-decoration: none;
+        }
+
+        a:visited {
+          color: var(--accent-colour);
+        }
+
+        a:hover {
+          text-decoration: underline;
+        }
+
+
+        /*media query --> full witdh nav bar for smaller screens*/
+        @media only screen and (max-width: 1024px) {
+          nav > ul {
+            width: 90vw;
+            margin-top: 1vh;
+            margin-left: 5vw;
+            justify-content: space-evenly;
+            gap: 0.8rem;
+            text-align: center;
+            font-size: 0.9em;
+            line-height: 0.8;
+          }
+
+          nav > ul > li {
+            display: block;
+             float: left;
+             width: fit-content;
+             text-align: left;
+             position: relative;
+           }
+        }
+
         </style>
 
         <nav id="site">
