@@ -62,4 +62,4 @@ footer {
     }
   }
   
-customElements.define('nav-component', Footer);
+customElements.define('footer-component', Footer);
