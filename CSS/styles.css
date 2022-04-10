@@ -127,6 +127,7 @@ a:hover {
 @media only screen and (max-width: 1024px) {
   nav > ul {
   width: 90vw;
+  margin-top: 1vh;
   margin-left: 5vw;
   justify-content: space-evenly;
   gap: 0.8rem;
