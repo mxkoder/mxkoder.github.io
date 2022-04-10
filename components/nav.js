@@ -9,12 +9,11 @@ class Nav extends HTMLElement {
         nav {
           position: fixed;
           top: 0px;
-          justify-content: center;
           width: 100vw;
           background-color: var(--main-colour);
           font-size: 1.5em;
           margin: 0;
-          padding: 0.2rem;
+          padding: 0.3rem;
           list-style:none;
         }
         
@@ -62,7 +61,6 @@ class Nav extends HTMLElement {
         @media only screen and (max-width: 1024px) {
           nav > ul {
             width: 90vw;
-            margin-top: 1vh;
             margin-left: 5vw;
             justify-content: space-evenly;
             gap: 0.8rem;
