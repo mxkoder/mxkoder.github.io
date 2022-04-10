@@ -128,7 +128,8 @@ a:hover {
   nav > ul {
   width: 90vw;
   margin-left: 5vw;
-  gap: 1rem;
+  justify-content: space-evenly;
+  gap: 0.8rem;
   text-align: center;
   font-size: 0.9em;
   line-height: 0.8;
