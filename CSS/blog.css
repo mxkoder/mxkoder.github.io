@@ -80,6 +80,19 @@ ul {
     font-size: 1.2em;
 }
 
+#links_to_articles {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.date { 
+    font-family: "Lucida Console", "Courier New", monospace;  
+    font-size: 0.8em;
+}
+
 /*media query --> articles for smaller screens*/
 @media only screen and (max-width: 1024px) {
     main {
