@@ -82,12 +82,34 @@ ul {
 
 #links_to_articles {
     display: flex;
-    flex-direction: column;
     justify-content: left;
+    flex-direction: column;
     gap: 1.5rem;
     width: 100%;
     margin-top: 1rem;
 }
+
+.article_item {
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5rem;
+    width: 100%;  
+}
+
+.article_image {
+    text-align: left;
+    width: 200px;
+    height: auto;
+    border-radius: 2%;
+    box-shadow: 2px 2px 2px 0px var(--secondary-colour);
+}
+
+.article_text {
+    margin-bottom: 1.5rem;
+}
+
 
 .date { 
     font-family: "Lucida Console", "Courier New", monospace;  
@@ -112,6 +134,25 @@ ul {
 
     ul {
         font-size: 1.1em;
+    }
+
+    
+    #links_to_articles {
+        justify-content: center;
+        gap: 2rem;
+        }
+
+    .article_item {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+
+    .article_text {
+        text-align: center;
+        margin-bottom: 0;
     }
 
 }
