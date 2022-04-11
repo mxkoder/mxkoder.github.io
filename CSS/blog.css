@@ -155,4 +155,8 @@ ul {
         margin-bottom: 0;
     }
 
+    .article_summary {
+        text-align: left;
+    }
+
 }
