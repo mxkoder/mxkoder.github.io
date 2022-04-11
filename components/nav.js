@@ -65,7 +65,7 @@ class Nav extends HTMLElement {
             justify-content: space-evenly;
             gap: 0.8rem;
             text-align: center;
-            font-size: 0.9em;
+            font-size: 0.8em;
             line-height: 0.8;
           }
 
