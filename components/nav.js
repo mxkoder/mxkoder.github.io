@@ -45,7 +45,7 @@ class Nav extends HTMLElement {
         /* Link styling */
         a:link {
           color: var(--accent-colour);
-           text-decoration: none;
+          text-decoration: none;
         }
 
         a:visited {
@@ -71,11 +71,11 @@ class Nav extends HTMLElement {
 
           nav > ul > li {
             display: block;
-             float: left;
-             width: fit-content;
-             text-align: left;
-             position: relative;
-           }
+            float: left;
+            width: fit-content;
+            text-align: left;
+            position: relative;
+          }
         }
 
         </style>
