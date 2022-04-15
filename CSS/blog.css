@@ -118,6 +118,7 @@ ul {
 .date { 
     font-family: "Lucida Console", "Courier New", monospace;  
     font-size: 0.8em;
+    opacity: 0.8;
 }
 
 /*media query --> articles for smaller screens*/

@@ -96,9 +96,12 @@ ul {
   float: left;
   margin-right: 0.8rem;
   border-radius: 2%;
-  text-align: left;
   width: 200px;
-  height: auto;var(--secondary-colour);
+  height: auto;
+}
+
+.date {
+  opacity: 0.8;
 }
 
 /*media query --> articles for smaller screens*/
