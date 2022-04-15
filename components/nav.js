@@ -78,6 +78,16 @@ class Nav extends HTMLElement {
           }
         }
 
+        /*media query --> nav bar for extra large screens*/
+        @media only screen and (min-width: 1200px) {
+          nav > ul {
+            width: 50vw;
+            margin-left: 24vw;
+            justify-content: space-evenly;
+            text-align: center;
+          }
+        }
+
         </style>
 
         <nav id="site">

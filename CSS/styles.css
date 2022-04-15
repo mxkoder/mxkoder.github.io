@@ -69,6 +69,15 @@ h1, h2 {
     }
   }
 
+  /*media query --> welcome section for extra large screens*/
+  @media only screen and (min-width: 1200px) {
+    #welcome {
+      max-width: 50vw;
+      align-items: left; 
+      margin-left: 25vw;
+    }
+  }
+
 /*------Header > Nav bar------*/
 nav {
   position: fixed;
@@ -140,6 +149,16 @@ a:hover {
     text-align: left;
     position: relative;
     }
+}
+
+/*media query --> nav bar for extra large screens*/
+@media only screen and (min-width: 1200px) {
+  nav > ul {
+  width: 50vw;
+  margin-left: 24vw;
+  justify-content: space-evenly;
+  text-align: center;
+  }
 }
 
 /*------Main section------*/
@@ -245,6 +264,13 @@ section {
     }
 }
 
+/*media query --> main section for extra large screens*/
+@media only screen and (min-width: 1200px) {
+  main {
+    width: 50vw;
+    margin-left: 25vw;
+  }
+}
 
 /*------Footer section------*/
 footer {
