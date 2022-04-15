@@ -104,6 +104,8 @@ ul {
   opacity: 0.8;
 }
 
+
+
 /*media query --> articles for smaller screens*/
 @media only screen and (max-width: 992px) {
   main {
