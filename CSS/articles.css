@@ -50,7 +50,7 @@ h2 {
 
 
   /*media query --> welcome section for smaller screens*/
-  @media only screen and (max-width: 1024px) {
+  @media only screen and (max-width: 992px) {
     #header {
       width: 90vw;
       margin-left: 5vw;
@@ -84,7 +84,7 @@ ul {
 }
 
 /*media query --> articles for smaller screens*/
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 992px) {
   main {
     width: 90vw;
     margin-left: 5vw;
