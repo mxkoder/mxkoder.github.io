@@ -176,18 +176,20 @@ main {
   font-size: 1.6em;
 }
 
-ul {
-  list-style-position:inside;
-  font-size: 1.2em;
+section {
+  padding-top: 10vh;
 }
+
+.nav-link-main {
+  text-align: left;
+}
+
+
+/*------Main > Blog section------*/
 
 #blog {
   display: flex;
   flex-direction: column;
-}
-
-section {
-  padding-top: 10vh;
 }
 
 /*------Main > Project section------*/
