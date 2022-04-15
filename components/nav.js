@@ -58,7 +58,7 @@ class Nav extends HTMLElement {
 
 
         /*media query --> full witdh nav bar for smaller screens*/
-        @media only screen and (max-width: 1024px) {
+        @media only screen and (max-width: 992px) {
           nav > ul {
             width: 90vw;
             margin-left: 5vw;
