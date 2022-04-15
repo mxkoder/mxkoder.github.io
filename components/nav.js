@@ -11,7 +11,7 @@ class Nav extends HTMLElement {
           top: 0px;
           width: 100vw;
           background-color: var(--main-colour);
-          font-size: 1.5em;
+          font-size: 1.4em;
           margin: 0;
           padding: 0.3rem;
           list-style:none;
