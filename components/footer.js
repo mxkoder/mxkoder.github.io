@@ -42,7 +42,7 @@ footer {
 }
 
 #stylised_portrait {
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
 /* hover effect for social media connect icons */
