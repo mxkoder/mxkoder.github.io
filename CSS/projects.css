@@ -1,0 +1,170 @@
+/* colour pallette: https://coolors.co/palette/03071e-370617-6a040f-9d0208-d00000-dc2f02-e85d04-f48c06-faa307-ffba08 */
+:root {
+    --main-colour: #f48c06 ;
+    --secondary-colour: #370617;
+    --accent-colour: #03071E;
+    --secondary-accent-colour: #6A040F;
+}
+
+/*Reset base template*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: var(--accent-colour);
+    background-color: var(--main-colour);
+    font-family: calibri;
+}
+
+h1 {
+    color: var(--secondary-colour);
+    font-size: 3em;
+    padding-bottom: 1vh;
+}
+
+h2 {
+    color: var(--secondary-colour);
+    font-size: 2em;
+    padding-top: 5vh;
+}
+
+/*------Header ------*/
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: left; 
+    padding-top: 10vh;
+    padding-bottom: 1vh;
+    margin-left: 15vw;
+    width: 70vw;
+}
+
+
+#header > p { 
+    font-family: "lucida console";  
+    font-size: 1em;
+}
+
+
+/*media query --> welcome section for smaller screens*/
+@media only screen and (max-width: 992px) {
+    #header {
+        width: 90vw;
+        margin-left: 5vw;
+    }
+
+    #header > p { 
+        font-size: 1.1em;
+    }
+    }
+
+/*media query --> header section for extra large screens*/
+@media only screen and (min-width: 1200px) {
+    #header {
+        max-width: 50vw;
+        margin-left: 25vw;
+    }
+}
+
+/*------Main section------*/
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    text-align: left;
+    margin-left: 15vw;
+    margin-bottom: 12vh;
+    width: 70vw;
+    line-height: 1.5;
+    font-size: 1.5em;
+}
+
+ul {
+    list-style-position:inside;
+    font-size: 1.2em;
+    margin-left: 1rem;
+    }
+
+
+
+.project_item {
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    align-items: top;
+    gap: 1.5rem;
+    width: 100%;  
+}
+
+.project_image {
+    text-align: left;
+    width: 200px;
+    height: auto;
+    border-radius: 2%;
+    box-shadow: 2px 2px 2px 0px var(--secondary-colour);
+}
+
+
+.date { 
+    font-family: "Lucida Console", "Courier New", monospace;  
+    font-size: 0.8em;
+    opacity: 0.8;
+}
+
+
+
+/*media query --> articles for smaller screens*/
+@media only screen and (max-width: 992px) {
+    main {
+        width: 90vw;
+        margin-left: 5vw;
+        font-size: 1.1em;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    ul {
+        font-size: 1.1em;
+    }
+
+    
+    #project_section {
+        justify-content: center;
+        gap: 2rem;
+        }
+
+    .project_item {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+
+    .project_description {
+        text-align: center;
+    }
+
+    .project_details {
+        text-align: left;
+    }
+
+}
+
+/*media query --> main section for extra large screens*/
+@media only screen and (min-width: 1200px) {
+    main {
+        width: 50vw;
+        margin-left: 25vw;
+    }
+}
