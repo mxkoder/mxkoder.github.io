@@ -49,12 +49,12 @@ footer {
 
      <footer id="footer"> 
       <section id="social-media-links">
-        <a href="https://twitter.com/mx_coder_" class="fa fa-twitter" target="_blank"></a>
-        <a href="https://www.linkedin.com/in/agnes-beviz/" class="fa fa-linkedin" target="_blank"></a>
-        <a href="https://www.freecodecamp.org/Agnes_Beviz" class="fa fa-free-code-camp" target="_blank"></a>
-        <a href="https://github.com/mxkoder" class="fa fa-github" target="_blank"></a>
-        <a href="https://www.agnesbeviz.co.uk/"><img alt="Cartoonised portrait" src="/images/portrait-ab-stylized.png" width=30px height=30px></a>
-      </section>
+        <a href="https://twitter.com/mx_coder_" class="fa fa-twitter" target="_blank" id="twitter_link"></a>
+        <a href="https://www.linkedin.com/in/agnes-beviz/" class="fa fa-linkedin" target="_blank" id="linkedin_link"></a>
+        <a href="https://github.com/mxkoder" class="fa fa-github" target="_blank" id="github_link"></a>
+        <a href="mailto:abeviz.codes@gmail.com" id="email_link"><img alt="black email icon" src="/images/email-icon.png" width=30px height=30px>
+        <a href="https://www.agnesbeviz.co.uk/" id="link_to_home_page"><img alt="Cartoonised portrait" src="/images/portrait-ab-stylized.png" width=30px height=30px></a>
+        </section>
       <p id="copyright">Copyright &#169 2022 Agnes Beviz</p>
         
     </footer>
