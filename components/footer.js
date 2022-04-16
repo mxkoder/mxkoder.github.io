@@ -41,13 +41,19 @@ footer {
   color: var(--accent-colour);
 }
 
+#email_link {
+  margin-left: 5px;
+}
+
 /* hover effect for social media connect icons */
 .fa:hover {
   opacity: 0.6;
 }
-     </style>
 
-     <footer id="footer"> 
+
+</style>
+
+    <footer id="footer"> 
       <section id="social-media-links">
         <a href="https://twitter.com/mx_coder_" class="fa fa-twitter" target="_blank" id="twitter_link"></a>
         <a href="https://www.linkedin.com/in/agnes-beviz/" class="fa fa-linkedin" target="_blank" id="linkedin_link"></a>
