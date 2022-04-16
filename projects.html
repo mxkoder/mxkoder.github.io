@@ -5,9 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agnes Beviz: Portfolio</title>
-    <link href="/CSS/projects.css" rel="stylesheet"> 
-</head>
+    <link rel="shortcut icon" type="image/png" href="/images/portrait-ab-stylized.png"/>
+    <link href="/CSS/blog.css" rel="stylesheet"> 
+    
+    <!-- Favicon library for social media connect links-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- Component JS files-->
+    <script src="/components/nav.js" type="text/javascript" defer></script>
+    <script src="/components/footer.js" type="text/javascript" defer></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-W61QSCKX34"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-W61QSCKX34');
+    </script>
+    </head>
 
 <body>
-    <h1> heading</h1>
+    <nav-component></nav-component>
+
+    <header id="header">
+        <h1> <b>Blog</b> </h1>
+    </header>
+
+    <main>
+        <section id="intro">
+            <p>Writing is one of the best ways to learn, and learning sparks so many ideas for writing. While I’m learning to code (a long process!) I’m going to use this corner to write about anything that inspires me – from diversity in tech, to how to guides, to more obscure topics. </p>
+        </section>
+
+        <section id="links_to_articles">
+
+            <div class="article_item">
+                <div class ="article_image_div">
+                    <a href="/blog/let-the-writing-begin">
+                        <img class="article_image" src="/images/feather-quill-pen-inkwell-square.jpg" alt="quill in ink jar on a wooden surface with clear blue sky in the background">
+                    </a>
+                </div>
+                <div class ="article_text"><a href="/blog/article1" class="blog_article_link"><b>Let the writing begin</b></a>
+                    <p class="date">04/05/2022</p>
+                    <article class="article_summary">
+                        <p>This is my first post - welcome to the blog.</p>
+                    </article>
+                </div> 
+            </div>
+
+            <div class="article_item">
+                <div class ="article_image_div">
+                    <a href="/blog/let-the-writing-begin">
+                        <img class="article_image" src="/images/feather-quill-pen-inkwell-square.jpg" alt="quill in ink jar on a wooden surface with clear blue sky in the background">
+                    </a>
+                </div>
+                <div class ="article_text"><a href="/blog/let-the-writing-begin.html" class="blog_article_link">Let the writing begin</a>
+                    <p class="date">04/05/2022</p>
+                    <article class="article_summary">
+                        <p>This is my first post - welcome to the blog.</p>
+                    </article>
+                </div> 
+            </div>
+
+        </section>
+        
+    </main>
+
+    <footer-component></footer-component>
+
 </body>
