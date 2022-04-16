@@ -116,7 +116,7 @@ ul {
 
 .project_image {
     text-align: left;
-    width: 300px;
+    width: 250px;
     height: auto;
     border-radius: 2%;
     box-shadow: 2px 2px 2px 0px var(--secondary-colour);
