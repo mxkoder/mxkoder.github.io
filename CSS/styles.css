@@ -292,7 +292,7 @@ footer {
   padding-top: 0;
 }
 
-footer > p {
+#copyright {
   display: flex;
   justify-content: center;
   margin-top: 0.5rem;
