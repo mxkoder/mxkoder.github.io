@@ -136,45 +136,6 @@ ul {
   }
 }
 
-/*------Footer section------*/
-footer {
-  background-color: var(--main-colour);
-  margin-top: -0.5em;
-  padding: 0.3em;
-  position: fixed; 
-  bottom: 0;
-  width: 100vw;
-}
-
-#social-media-links {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 0.8rem;
-  padding-top: 0;
-}
-
-#copyright {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  margin-top: 0.5rem;
-}
-
-/* social media connect icons*/
-.fa {
-  font-size: 1em;
-  width: 40px;
-  text-align: center;
-  text-decoration: none;
-  color: var(--accent-colour);
-}
-
-/* hover effect for social media connect icons */
-.fa:hover {
-  opacity: 0.6;
-}
 
 
 
