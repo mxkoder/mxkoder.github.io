@@ -103,7 +103,7 @@ ul {
     display: flex;
     justify-content: left;
     flex-direction: row;
-    align-items: top;
+    align-items: center;
     gap: 1.5rem;
     width: 100%;  
 }
@@ -160,6 +160,15 @@ ul {
     .project_item {
         gap: 0;
     }
+
+    .project_header {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    
 
     .project_header_text {
         text-align: center;
