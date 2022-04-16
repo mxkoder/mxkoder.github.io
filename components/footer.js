@@ -41,7 +41,7 @@ footer {
   color: var(--accent-colour);
 }
 
-#email_link {
+#stylised_portrait {
   margin-left: 5px;
 }
 
@@ -59,7 +59,7 @@ footer {
         <a href="https://www.linkedin.com/in/agnes-beviz/" class="fa fa-linkedin" target="_blank" id="linkedin_link"></a>
         <a href="https://github.com/mxkoder" class="fa fa-github" target="_blank" id="github_link"></a>
         <a href="mailto:abeviz.codes@gmail.com" id="email_link"><img alt="black email icon" src="/images/email-icon.png" width=30px height=30px>
-        <a href="https://www.agnesbeviz.co.uk/" id="link_to_home_page"><img alt="Cartoonised portrait" src="/images/portrait-ab-stylized.png" width=30px height=30px></a>
+        <a href="https://www.agnesbeviz.co.uk/" id="link_to_home_page"><img alt="Cartoonised portrait" src="/images/portrait-ab-stylized.png" width=30px height=30px id="stylised_portrait"></a>
         </section>
       <p id="copyright">Copyright &#169 2022 Agnes Beviz</p>
         
