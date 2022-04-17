@@ -92,7 +92,7 @@ class Nav extends HTMLElement {
 
         <nav id="site">
           <ul id="nav-list">
-            <li><a href="#about" class="nav-link">about</a></li>
+            <li><a href="agnesbeviz.co.uk#about" class="nav-link">about</a></li>
             <li><a href="/blog" class="nav-link">blog</a></li>
             <li><a href="/projects" class="nav-link">projects</a></li>
             <li><a href="/resources" class="nav-link">resources</a></li>
