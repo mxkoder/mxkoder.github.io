@@ -1,0 +1,152 @@
+/* colour pallette: https://coolors.co/palette/03071e-370617-6a040f-9d0208-d00000-dc2f02-e85d04-f48c06-faa307-ffba08 */
+:root {
+  --main-colour: #f48c06 ;
+  --secondary-colour: #370617;
+  --accent-colour: #03071E;
+  --secondary-accent-colour: #6A040F;
+}
+
+/*Reset base template*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: var(--accent-colour);
+  background-color: var(--main-colour);
+  font-family: calibri;
+}
+
+h1 {
+  color: var(--secondary-colour);
+  font-size: 3em;
+  padding-bottom: 1vh;
+}
+
+h2 {
+  color: var(--secondary-colour);
+  font-size: 2em;
+  padding-top: 5vh;
+}
+
+/*------Header ------*/
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: left; 
+  padding-top: 10vh;
+  padding-bottom: 1vh;
+  margin-left: 15vw;
+  width: 70vw;
+}
+
+
+#header > p { 
+  font-family: "Lucida Console", "Courier New", monospace;  
+  font-size: 1em;
+}
+
+
+/*media query --> header section for smaller screens*/
+@media only screen and (max-width: 992px) {
+  #header {
+    width: 90vw;
+    margin-left: 5vw;
+  }
+
+  #header > p { 
+    font-size: 0.9em;
+  }
+}
+
+/*media query --> header section for extra large screens*/
+  @media only screen and (min-width: 1200px) {
+  #header {
+    max-width: 50vw;
+    margin-left: 25vw;
+  }
+}
+
+
+
+/*------Main section------*/
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  text-align: left;
+  margin-left: 15vw;
+  margin-bottom: 15vh;
+  width: 70vw;
+  line-height: 1.5;
+  font-size: 1.5em;
+}
+
+ul {
+  list-style-position:inside;
+  margin-left: 1rem;
+}
+
+/* Resources nav bar menu*/
+#resources_navbar {
+  position: fixed;
+  height: 100%;
+  width: 150px;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding: 10px;
+  border-right: #370617;
+}
+
+#navbar ul {
+  height: 88%;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#navbar li {
+  color: var(--secondary-colour);
+  border-top: 1px solid;
+  list-style: none;
+  position: relative;
+  width: 100%;
+}
+
+
+
+/*media query --> for smaller screens*/
+@media only screen and (max-width: 992px) {
+  main {
+    width: 90vw;
+    margin-left: 5vw;
+  }
+
+  h1 {
+    font-size: 2em;
+    }
+
+  h2 {
+      font-size: 1.5em;
+    }
+
+}
+
+/*media query --> main section for extra large screens*/
+@media only screen and (min-width: 1200px) {
+  main {
+    width: 50vw;
+    margin-left: 25vw;
+  }
+}
+
+
+
+
+
+
