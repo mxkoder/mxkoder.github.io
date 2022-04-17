@@ -139,7 +139,7 @@ P {
     gap: 1rem;
 }
 
-/*media query --> articles for smaller screens*/
+/*media query --> projects for smaller screens*/
 @media only screen and (max-width: 992px) {
     main {
         width: 90vw;
@@ -153,10 +153,6 @@ P {
 
     h2 {
         font-size: 1.5em;
-    }
-
-    ul {
-        font-size: 1.1em;
     }
 
     
