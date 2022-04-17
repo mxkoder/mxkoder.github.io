@@ -85,7 +85,6 @@ main {
 
 ul {
     list-style-position:inside;
-    font-size: 1.2em;
     margin-left: 1rem;
     }
 
@@ -98,6 +97,13 @@ ul {
     margin-top: 1rem;
 }
 
+.project_item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
 
 .project_header {
     display: flex;
@@ -122,14 +128,11 @@ ul {
     box-shadow: 2px 2px 2px 0px var(--secondary-colour);
 }
 
-.project_item {
+.project_details {
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    align-items: center;
-    gap: 0.5rem;
+    gap: 1rem;
 }
-
 
 /*media query --> articles for smaller screens*/
 @media only screen and (max-width: 992px) {
