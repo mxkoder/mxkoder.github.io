@@ -31,6 +31,10 @@ h2 {
   padding-top: 5vh;
 }
 
+P {
+  margin-top: 1rem;
+}
+
 /*------Header ------*/
 #header {
   display: flex;
