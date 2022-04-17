@@ -86,7 +86,12 @@ main {
 ul {
     list-style-position:inside;
     margin-left: 1rem;
+    margin-top: 1rem;
     }
+
+P {
+    margin-top: 1rem;
+}
 
 #project_section {
     display: flex;
