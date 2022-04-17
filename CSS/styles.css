@@ -54,6 +54,7 @@ h1, h2 {
   /*media query --> welcome section for smaller screens*/
   @media only screen and (max-width: 992px) {
     #welcome {
+      height: 60vh;
       width: 90vw;
       align-items: center; 
       margin-left: 5vw;
