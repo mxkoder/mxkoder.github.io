@@ -91,11 +91,11 @@ ul {
   margin-left: 1rem;
 }
 
-.image_right {
-  float: right;
+.image_main {
+  float: center;
   margin-right: 0.8rem;
   border-radius: 2%;
-  width: 300px;
+  width: 400px;
   height: auto;
 }
 
@@ -123,7 +123,7 @@ ul {
       font-size: 1.5em;
     }
 
-    .image_left, .image_right {
+    .image_left, .image_main {
       float: center;
       width: 100%;
     }
