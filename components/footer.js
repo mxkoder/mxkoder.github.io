@@ -41,7 +41,7 @@ footer {
   color: var(--accent-colour);
 }
 
-#stylised_portrait {
+#link_to_home_page {
   margin-left: 10px;
 }
 
