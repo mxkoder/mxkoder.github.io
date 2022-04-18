@@ -90,6 +90,10 @@ ul {
   margin-left: 1rem;
 }
 
+P {
+  margin-top: 1rem;
+}
+
 /* Resources nav bar menu*/
 #resources_navbar {
   position: fixed;

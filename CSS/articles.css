@@ -99,7 +99,15 @@ ul {
   float: left;
   margin-right: 0.8rem;
   border-radius: 2%;
-  width: 200px;
+  width: 70%;
+  height: auto;
+}
+
+.image_left {
+  float: left;
+  margin-right: 0.8rem;
+  border-radius: 2%;
+  width: 300px;
   height: auto;
 }
 
@@ -124,6 +132,10 @@ ul {
       font-size: 1.5em;
     }
 
+    .image_left {
+      float: center;
+      width: 100%;
+    }
 }
 
 /*media query --> main section for extra large screens*/
