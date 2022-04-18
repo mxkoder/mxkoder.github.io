@@ -108,6 +108,8 @@ P {
     flex-direction: column;
     align-items: center;
     gap: 0.5rem;
+    border-bottom: 1px;
+    border-color: var(--secondary-colour);
 }
 
 .project_header {
