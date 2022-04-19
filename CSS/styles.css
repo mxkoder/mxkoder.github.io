@@ -200,7 +200,7 @@ section {
 #project-tiles {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 2rem;
+  gap: 2.5rem;
   margin: auto;
   
 }
@@ -210,7 +210,7 @@ section {
   #project-tiles {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  gap: 1.5rem;
+  gap: 2rem;
   margin: 0 2vh 2vh;
   }
   
