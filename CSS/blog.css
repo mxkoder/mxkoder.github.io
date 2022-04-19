@@ -27,7 +27,6 @@ h1 {
 h2 {
     color: var(--secondary-colour);
     font-size: 2em;
-    padding-top: 5vh;
 }
 
 /*------Header ------*/
@@ -92,7 +91,7 @@ ul {
     display: flex;
     justify-content: left;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 2.5rem;
     width: 100%;
     margin-top: 2rem;
 }
@@ -148,7 +147,6 @@ ul {
     
     #links_to_articles {
         justify-content: center;
-        gap: 2rem;
         }
 
     .article_item {
