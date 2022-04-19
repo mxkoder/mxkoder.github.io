@@ -15,8 +15,7 @@
 body {
     color: var(--accent-colour);
     background-color: var(--main-colour);
-    font-family: calibri;
-}
+    font-family: "calibri", "open sans", "helvetica neue";
 
 h1 {
     color: var(--secondary-colour);
