@@ -96,11 +96,12 @@ P {
 
 
 
-/*media query --> articles for smaller screens*/
+/*media query --> main section for smaller screens*/
 @media only screen and (max-width: 992px) {
     main {
     width: 90vw;
     margin-left: 5vw;
+    font-size: 1.1em;
     }
 
     h1 {
