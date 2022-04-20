@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Article about testing my website for accessiblity an performance using axe DevTools and Lighthouse"/>
+
+    <title>Agnes Beviz: Portfolio</title>
+    <link rel="shortcut icon" type="image/png" href="/images/portrait-ab-stylized.png"/>
+    <link href="/CSS/articles.css" rel="stylesheet"> 
+
+    <!-- Favicon library for social media connect links-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Component JS files-->
+    <script src="/components/nav.js" type="text/javascript" defer></script>
+    <script src="/components/footer.js" type="text/javascript" defer></script>
+
+    <!-- Plausible HQ analytics-->
+    <script defer data-domain="agnesbeviz.co.uk" src="https://plausible.io/js/plausible.js"></script>
+
+</head>
+<body>
+    <header id="header">
+        <h1> <b>Testing my website using Lighthouse and axe DevTools</b> </h1>
+        <p>20/04/2022</p>
+    </header>
+
+    <nav-component></nav-component>
+
+    <main>
+        <article>
+            <img class="image_left" src="/images/blog/lighthouse-testing-li.png" alt="Text at the top reads “website testing using Lighthouse”. Image shows a transition from lower testing scores to higher testing scores across performance, accessibility, best practices, and SEO.">
+            <p>While building this website, I tested it for accessibility and performance - here’s what I found using axe DevTools and Lighthouse.</p>
+
+            <p>I found out about axe DevTools at the #MCRTechConnect recently, and wanted to try it out alongside Lighthouse to test for accessibility. </p>
+
+            <p>I ran the tests on each page of my website first using both tools, making notes of the corrections.  I didn’t implement any corrections until after I had tested with both tools so I could compare the results fairly. </p>
+
+            <p>What the tests picked up & I fixed straight away:</p>
+            <ul>
+                <li>The social media icons with links in my footer weren’t labelled correctly for screen readers. → I added aria labels to make the icon links identifiable. </li>
+                <li>An errant img tag on one of the article pages, the test picked up that the tag didn’t have any alt text. This was actually in the text body of the article, and ironically I was writing about the importance of using alt tags for images…. → I reformatted it so it wouldn’t be read as an img tag. </li>
+                <li>Links were too close together, which could cause issues for users to be able to tap them to navigate. → increased the spacing between links.</li>
+                <li>Meta descriptions were missing on some pages, which impacts the SEO (search engine optimisation) → added meta descriptions</li>
+            </ul>
+            <p>Most of the above improvements were mistakes the tools helped me pick up which will ultimately make my website better for all users, not just disabled users. </p>
+
+            <p>A few items I chose to fix later, most of these impacted the performance slightly rather than accessibility:</p>
+            <ul>
+                <li>I used a Font Awesome library for my social media icons. This was picked up in the performance section because it slowed down the load time for my page. I will consider this more in the future when building websites, and will later replace the library with images for the icons. </li>
+                <li>I’ll need to resize a few images</li>
+                <li>Images would load faster with next gen file formats like WebP / AVIF instead of PNG / JPEG → I’ll bear this in mind when adding images in the future. </li>
+            </ul>
+            <p>There are also a few issues the tools picked up on that I knew I could ignore. For example, axe DevTools picked up on a script from Ghostery from the browser at my end. </p>
+
+            <p>A few pros and cons, bearing in mind I’m comparing the free versions of both tools:</p>
+
+            <p><b>Lighthouse:</b></p>
+            ✔️ Easy and intuitive to use<br>
+            ✔️ Shows test scores as a percentage for performance, accessibility, best practices, and SEO. <br>
+            ✔️ Can look at previous reports<br>
+            ✔️ Can choose to test for desktop vs mobile <br>
+            ✔️ Already installed in Chrome browser developer tools (hit Ctrl + I +Shift), minimal setup!<br>
+            ➖ Suggested solutions and reasons to make changes were less detailed than axe DevTools<br>
+
+            <p><b>Axe DevTools</b></p>
+            ✔️ Categorised issues into severity to help prioritise<br>
+            ✔️ Picked up on more issues than Lighthouse<br>
+            ✔️ More detailed solutions - this helped me decide how to solve issues<br>
+            ➖  Free version is more limited than Lighthouse and fewer options available<br>
+
+
+            <p>Overall, both tools were easy to use, and I definitely recommend testing with them or similar before launching a website. </p>
+
+            <p>The test scores in the image are for one of the article pages, and the results are similar across all the pages on the website, with variation for mobile. </p>
+
+            <p>I’m pleased with the result, but also am aware that it would be much more difficult to get a more complex website to a high accessibility score!</p>
+
+        </article>
+    </main>
+
+    <footer-component></footer-component>
+    
+</body>
+</html>
