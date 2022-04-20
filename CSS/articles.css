@@ -132,7 +132,7 @@ ul {
       font-size: 1.5em;
     }
 
-    .image_left, .image_main {
+    .image_left, .image_main, .image_left_400 {
       float: center;
       width: 100%;
     }
