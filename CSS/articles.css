@@ -107,11 +107,11 @@ ul {
   height: auto;
 }
 
-.image_left_400px {
+.image_left_400 {
   float: left;
   margin-right: 0.8rem;
   border-radius: 2%;
-  width: 300px;
+  width: 400px;
   height: auto;
 }
 
