@@ -82,7 +82,7 @@ main {
     font-size: 1.5em;
 }
 
-ul {
+main > ul {
     list-style-position:inside;
     font-size: 1.2em;
 }
@@ -140,7 +140,7 @@ ul {
         font-size: 1.5em;
     }
 
-    ul {
+    main > ul {
         font-size: 1.1em;
     }
 
