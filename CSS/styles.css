@@ -181,6 +181,11 @@ section {
   padding-top: 10vh;
 }
 
+section > ul {
+  list-style-position:inside;
+  margin-left: 1rem;
+}
+
 .nav-link-main {
   text-align: right;
   float: right;
