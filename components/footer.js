@@ -55,7 +55,7 @@ footer {
 
     <footer id="footer"> 
       <section id="social-media-links">
-        <a href="https://twitter.com/mx_coder_" class="fa fa-twitter" target="_blank" aria-label="twitter_link" id="twitter_link"></a>
+        <a href="https://twitter.com/mxkoder" class="fa fa-twitter" target="_blank" aria-label="twitter_link" id="twitter_link"></a>
         <a href="https://www.linkedin.com/in/agnes-beviz/" class="fa fa-linkedin" target="_blank" aria-label="linkedin_link" id="linkedin_link"></a>
         <a href="https://github.com/mxkoder" class="fa fa-github" target="_blank" aria-label="github_link" id="github_link"></a>
         <a href="mailto:abeviz.codes@gmail.com" id="email_link" aria-label="mailto:_link" ><img alt="black email icon" src="/images/email-icon.png" width=30px height=30px>
