@@ -61,7 +61,7 @@ footer {
         <a href="mailto:abeviz.codes@gmail.com" id="email_link" aria-label="mailto:_link" ><img alt="black email icon" src="/images/email-icon.png" width=30px height=30px>
         <a href="https://www.agnesbeviz.co.uk/" id="link_to_home_page"><img alt="Cartoonised portrait" src="/images/portrait-ab-stylized.png" width=30px height=30px id="stylised_portrait, links to homepage"></a>
         </section>
-      <p id="copyright">Copyright &#169 2022 Agnes Beviz</p>
+      <p id="copyright">Copyright &#169 2023 Agnes Beviz</p>
         
     </footer>
 `;
