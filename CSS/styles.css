@@ -1,7 +1,7 @@
 /* colour pallette: https://coolors.co/palette/03071e-370617-6a040f-9d0208-d00000-dc2f02-e85d04-f48c06-faa307-ffba08 */
 
 :root {
-  --main-colour: #f48c06 ;
+  --main-colour: rgb(236, 227, 182) ;
   --lighter-than-main: #FAA307;
   --secondary-colour: #370617;
   --accent-colour: #03071E;
@@ -229,7 +229,6 @@ section > ul {
 	align-items: center;
 	justify-content: center;
   border-radius: 5%;
-  box-shadow: 2px 2px 2px 0px var(--secondary-accent-colour);
   width: 95%;
   height: auto;
   padding: 1vw;
